@@ -12,7 +12,6 @@ angular.module('muncher-rust', [
         });
 
         $locationProvider.html5Mode(true);
-
     });
 
 angular.module('features', [
