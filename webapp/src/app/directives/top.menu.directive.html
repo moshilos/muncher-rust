@@ -1,8 +1,7 @@
-
 <div class="top-menu-container">
     <ul>
         <li ng-repeat="item in menu.items">
-            <a href="javascript:;" ui-sref="{{item.state}}">
+            <a href="javascript:;" ui-sref-active="active" ui-sref="{{item.state}}">
                 {{item.name}}
             </a>
         </li>
